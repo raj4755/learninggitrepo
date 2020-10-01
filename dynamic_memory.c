@@ -27,36 +27,36 @@
 // }
 
 
-// #include<stdio.h>
-// #include<stdlib.h>
+#include<stdio.h>
+ #include<stdlib.h>
 
-// int main(){
+ int main(){
 
-//     int *ptr;
-//     int num;
-//     printf("Enter Size to Allocate\n");
-//     scanf("%d", &num);
+    int *ptr;
+    int num;
+     printf("Enter Size to Allocate\n");
+     scanf("%d", &num);
 
-//     ptr = (int *) malloc(num * sizeof(int));
-//     if (ptr != NULL){
-//     printf("Memory Allocated\n");
-//     }
-//     for (int i = 0; i < num; i++)
-//     {
-//         printf("Enter value of Element %d \n", i+1);
-//         scanf("%d", &ptr[i]);
-//     }
+     ptr = (int *) malloc(num * sizeof(int));
+     if (ptr != NULL){
+     printf("Memory Allocated\n");
+    }
+     for (int i = 0; i < num; i++)
+     {
+         printf("Enter value of Element %d \n", i+1);
+         scanf("%d", &ptr[i]);
+     }
 
-//     for (int i = 0; i < num; i++)
-//     {
-//         printf("Value of Element %d is %d\n", i+1, ptr[i]);
-//     }
+     for (int i = 0; i < num; i++)
+    {
+         printf("Value of Element %d is %d\n", i+1, ptr[i]);
+     }
 
-//     free(ptr);
-//     printf("Memory Freed");
+    free(ptr);
+     printf("Memory Freed");
     
-//     return 0;
-// }
+    return 0;
+ }
 
 // #include<stdio.h>
 // #include<stdlib.h>
