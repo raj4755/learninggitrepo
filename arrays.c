@@ -43,7 +43,7 @@
 //     printf("Value of ptr is %u\n", ptr);
 //     // ptr++;
 //     // ptr++;
-//     ptr--;
+//     ptr--
 //     printf("Value of ptr is %u\n", ptr);
 //     return 0;
 // }
@@ -317,24 +317,24 @@
 // }
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
-    int arr[3][3][3] = {{1,2,3}, {4,5,6},{7,8,9}};
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            for (int k = 0; k < 3; k++)
-            {
-                printf("Address of Element at position %d,%d,%d is %u\n",i,j,k, &arr[i][j][k]);
-            }
+//     int arr[3][3][3] = {{1,2,3}, {4,5,6},{7,8,9}};
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 3; j++)
+//         {
+//             for (int k = 0; k < 3; k++)
+//             {
+//                 printf("Address of Element at position %d,%d,%d is %u\n",i,j,k, &arr[i][j][k]);
+//             }
             
-        }
+//         }
         
-    }
+//     }
     
 
-    return 0;
-}
+//     return 0;
+// }
