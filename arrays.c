@@ -88,13 +88,12 @@
 
 // #include<stdio.h>
 
-// void printArray(int *ptr, int n){
-//     for (int i = 0; i < n; i++)
-//     {
-//         printf("Value of Elment %d is %d\n", i+1, *(ptr+i));
-//     }
+void printArray(int *ptr, int n){
+    for (int i = 0; i < n; i++)
+    {
+       printf("Value of Elment %d is %d\n", i+1, *(ptr+i));     }
     
-// }
+}
 
 // int main(){
 
